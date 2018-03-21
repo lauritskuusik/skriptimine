@@ -1,6 +1,6 @@
 #!/bin/bash
 #
 
-find /var/log/ -name *.log
+find /var/log/ -name *.log -exec wc -l {} + | sort -rm
 
 #lõpp

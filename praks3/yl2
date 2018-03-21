@@ -2,5 +2,5 @@
 #
 
 find /var/log/ -name *.log -exec wc -l {} + | sort -rn
-
+# skript leiab /var/log/ kataloogist .log failid ja  väljastab mitmes rida on
 #lõpp

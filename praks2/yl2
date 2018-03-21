@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# kasutaja tervitus
+#
+# skripti algus
+#
+echo  "Laurits Kuusik" #väljasta ja tee reavahetus
+echo  "ISP 217 (1)"  #väljasta ja tee reavahetus
+echo  "Mulle tundub antud aine huvitavana" #väljasta ja tee reavahetus
+echo  "Ma arvan, et ma suudan" #väljasta ja tee reavahetus
+#
+# skripti lõpp

@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# aeg ja kalender
+
+date +"%A.  %B %d. %Y"
+date +"%H:½M"
+cal
+
+#lõpp

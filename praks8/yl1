@@ -1,0 +1,14 @@
+#!/bin/bash
+# kümne arvu simma - liida paaris arvud
+summa=0
+for (( arv=1; arv<11; arv++ ))
+do
+	jaak=$(($arv % 2))
+	if [ $jaak -eq 0 ]
+	then
+		summa=$(($summa + $arv))
+		echo $summa
+	fi
+done
+echo "arvud mis on vahemikus 1-10 paarisarvude summa: $summa"
+#lõpp

@@ -1,0 +1,21 @@
+#!/bin/bash
+#skript annab kuu
+echo -n "sisesta kuu number. "
+read number
+	case $number in
+	"1") echo "see kuu on jaanuar (kevad)";;
+	"2") echo "see kuu on veebruar (kevad)";;
+	"3") echo "see kuu on märts (kevad)";;
+	"4") echo "see kuu on aprill (kevad)";;
+	"5") echo "see kuu on mai (kevad)";;
+	"6") echo "see kuu on juuni (suvi)";;
+	"7") echo "see kuu on juuli (suvi)";;
+	"8") echo "see kuu on august (suvi)";;
+	"9") echo "see kuu on september (sügis)";;
+	"10") echo "see kuu on oktoober (sügis)";;
+	"11") echo "see kuu on november (sügis)";;
+	"12") echo "see kuu on destember (talv)";;
+	*)echo "vale kuu number";;
+esac
+
+#lõpp

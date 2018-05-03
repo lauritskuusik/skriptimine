@@ -1,0 +1,14 @@
+#!/bin/bash
+#sisestab suvalise täisarvu ja liidab selle numbri
+echo -n "sisesta täisarv: "
+read arv
+summa=0
+while [ $arv -ne 0 ]
+do
+	jaak=$(($arv % 10))
+	summa=$(($summa + jaak))
+	arv=$(($arv / 10))
+done
+echo "antud arvude summa on $summa: "
+
+lõpp

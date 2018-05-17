@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo -n "sisesta oma kandiku pikkus (cm): "
+read pikkus
+echo -n "sisesta oma küpsiste laius (cm): "
+read laius
+echo -n "sisesta oma küpsiste pikkus (cm): "
+read
+echo -n "sisesta oma küpsise laius (cm): "
+read k_laius
+echo -n "sisesta oma kihtide arv tordil (cm): "
+read kihid
+echo -n "sisesta oma küpsiste arv pakis (cm): "
+read pakk
+
+pindala=`expr $pikkus \* $laius`
+k_pindala=`expr $k_pikkus \* $laius`
+kypsisekihtide=`expr $pindala / $k_pindala`
+kypsisedkokku=`expr $kypsisekihid \* kihid`
+pakid=`expr $kypsisedkokku / $pakk`
+echo "vaja on $pakid pakki küpsiseid"
+
+

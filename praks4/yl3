@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo -n "reisiate arv ühes grupis: "
+read opilaste_arv
+echo -n "kohtade arv bussis: "
+read kohtade_arv
+echo -n "gruppide arv: "
+read grupi_arv
+
+vajatud_kohtade_arv='expr $opilaste_arv \* $grupi_arv'
+jaak='expr $vajatud_kohtade_arv % $kohtade_arv'
+busside_arv='expr $vajatud_kohtade_arv / $kohtade_arv'
+
+echo "maha jääb $jaak õpilast ja täidetud busse on $busside_arv"

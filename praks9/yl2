@@ -1,0 +1,19 @@
+#!/bin/bash
+#skripti algus
+echo -n "ridade arv: "
+read ridade_arv
+echo -n "tarnide arv"
+read tarnide_arv
+
+for (( f = 1; f <= $ridade_arv; f++ ))
+	do
+		echo -n  $f". "
+for (( g =1; g <= $tarnide_arv; g++ ))
+	do
+		echo -n "*"
+
+	done
+	echo ""
+done
+echo -n $i"."
+echo ""

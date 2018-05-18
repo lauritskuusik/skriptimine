@@ -1,0 +1,17 @@
+#!/bin/bash
+echo -e "sisesta kasutaja vanuse \c"
+read vanus
+if test $vanus -gt 0 -a $vanus -lt 11
+then
+	echo "laps"
+elif test $vanus -ge 11 -a $vanus -lt 18
+then
+	echo "nooruk"
+elif test $vanus -ge 18 -a $vanus -it63
+then
+	echo "oled täiskasvanu"
+elif test $vanus -ge 63
+	then echo "vanur"
+else
+	echo "vigane sisend"
+fi 

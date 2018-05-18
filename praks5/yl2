@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#kolmnurga pindala arvutamine
+
+# sisestame külje väärtused
+
+echo -n "Sisesta a külje: "
+read a
+echo -n "sisesta b külje väärtus: "
+read b
+echo -n "sisesta c külje väärtus"
+read c
+p=$( echo "scale=2;($a+$b+$c)/2" | bc)
+#ruutjuure avaldis
+pindala=echo "scale=2;sqrt($p*($p-$a)*($p$b)*($p$c))" |bc
+echo "pindala = $üindala"

@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "pyhhapaev -0, esmaspaev -1 ..., laupaev -6"
+#andmed
+echo "sisesta millal sõidad"
+read reisis algus
+#mitu reisijat
+echo -n "sisesta reisi ööpäevade arv: "
+read paevad
+
